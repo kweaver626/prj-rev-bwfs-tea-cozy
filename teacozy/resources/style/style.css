@@ -1,0 +1,143 @@
+body {
+  display: inline-block;
+  background-color: black;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+  text-align: center;
+  margin: 0px 20px;
+
+}
+h2, h3, h4 {
+  margin: 0;
+  padding: 10px;
+}
+
+/*header code**/
+.header {
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+  text-align: left;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+
+}
+
+.header img{
+  height: 50px;
+  padding-left: 10px;
+
+}
+a {
+  color: seashell;
+}
+nav {
+  justify-content: flex-end;
+  align-items: flex-end;
+  text-align: right;
+  padding-right: 30px;
+
+
+}
+nav a{
+  padding: 5px;
+
+  display: inline-block;
+}
+/*Mission*/
+
+#mission {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  width: 1200px;
+  height: 700px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  padding-top: 69px;
+  margin: 0px;
+
+}
+#mission .info {
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+  width: 1200px;
+  padding: 0px;
+  margin: 0px;
+
+
+}
+
+
+
+/*tea of month*/
+
+.teasofmonth {
+  text-align: center;
+  width: 1200px;
+  padding-top: 60px;
+  display: block;
+  padding-bottom: 30px;
+}
+
+.teas {
+  display: inline-block;
+  padding: 0px 10px;
+}
+.teas img {
+  height: 200px;
+  width: 300px;
+
+}
+
+/*locations*/
+.location_parent {
+  display: inline-block;
+  height: 500px;
+  width: 1200px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  align-content: center;
+  justify-content: space-between;
+  text-align: center;
+  padding-top: 70px;
+  margin-top: 70px;
+}
+.location_info {
+  display: block;
+  margin-bottom: 15px;
+
+}
+
+ .location {
+  background-color: black;
+  width: 300px;
+  margin: 0px 20px;
+  opacity: 1;
+  padding: 10px 0px 30px 0px;
+  display: inline-block;
+  align-items: center;
+  line-height: 150%;
+  justify-content: space-between;
+  color: seashell;
+
+
+}
+/*contact*/
+.contact {
+  height: 200px;
+  color: seashell;
+  text-align: center;
+}
+
+/*footer*/
+.footer {
+  text-align: left;
+
+  color: seashell;
+}
